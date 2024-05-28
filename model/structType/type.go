@@ -1,5 +1,8 @@
 package structType
 
+type EventExist struct {
+	ExistEventArr []string
+}
 type Event struct {
 	EventName  string
 	MemeberPay map[string]int
@@ -8,9 +11,4 @@ type Event struct {
 type User struct {
 	MemberName  string
 	EventAttend map[string]Event
-}
-
-type EventExist struct {
-	ExistEventNum int
-	ExistEventArr []string
 }
