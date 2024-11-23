@@ -10,8 +10,8 @@
 
 每一個Event物件中，有一個該event的名稱，與一個 string ： int 的 map，表此event中每一個user與此user的金額關係（欠/被欠 多少錢）
 
-
 ### 元件結構
+
 ```plantuml
 @startuml
 entity "Group" as Group {
@@ -46,6 +46,7 @@ Event ||--o{ MemberEvent : "is"
 
 @enduml
 ```
+
 ```plantuml
 @startuml
 entity "Group" as Group {
@@ -70,6 +71,7 @@ Member ||--o{ Event : "participates in"
 ```
 
 ### 待思考
+
 ```
 -- 記錄個人支出記錄
 
