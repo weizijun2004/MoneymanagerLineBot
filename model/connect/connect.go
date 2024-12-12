@@ -39,7 +39,9 @@ func InitializeMongoDatabaseClient() (success bool, err error) {
 		success = false
 		return success, err
 	}
+
 	success = true
+	err = nil
 	return success, err
 }
 
